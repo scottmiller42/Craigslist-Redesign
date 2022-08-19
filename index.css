@@ -34,3 +34,36 @@ img {
 .hamburger {
     margin-top: 55px;
 }
+
+ #nav-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+.navbar-background {
+  display: flex;
+  background-color: rgb(173, 205, 216);
+  justify-content: space-evenly;
+  /* height: 75px; */
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items:hover {
+color: white;
+
+}
+
+.nav-list li {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 120px;
+  /* float: left; */;
+  margin: 0 45px;
+}
