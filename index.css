@@ -1,0 +1,27 @@
+.flex-container {
+    display: flex  ;
+    background-color: #29304e;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+
+  .flex-container > input {
+    align-self: center;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  h1 {
+    color: #ff7722;
+  }
+
+  .icon {
+    color: white;
+  }
