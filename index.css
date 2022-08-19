@@ -19,8 +19,9 @@
     margin-right: 500px;
 }
 
-.hamburger {
-    margin-top: 55px;
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 .hamburger > div {
@@ -28,5 +29,8 @@
     width: 35px;
     height: 5px;
     margin: 6px 0;
+}
 
+.hamburger {
+    margin-top: 55px;
 }
