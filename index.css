@@ -82,3 +82,40 @@ color: white;
   /* float: left; */;
   margin: 0 45px;
 }
+
+.bodyFlexContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  margin-left: 75px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  margin: 15px;
+}
+
+h3 {
+  font-size: 42px;
+  font-weight: bolder;
+}
+
+.posts {
+  width: 850px;
+  height: 400px;
+}
+
+.events {
+  width: 850px;
+  height: 400px;
+}
