@@ -94,7 +94,7 @@ color: white;
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 15px;
-  margin-left: 75px;
+  margin-left: 55px;
 }
 
 .column {
@@ -106,11 +106,11 @@ color: white;
 }
 
 .posts {
-  width: 850px;
+  width: 800px;
   height: 400px;
 }
 
 .events {
-  width: 850px;
+  width: 800px;
   height: 400px;
 }
