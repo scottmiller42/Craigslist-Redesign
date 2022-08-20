@@ -1,27 +1,84 @@
 .flex-container {
-    display: flex  ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: #29304e;
+    height: 150px;
 }
 
 .flex-container > div {
-    margin: 10px;
-    padding: 20px;
+    margin: 2px;
     font-size: 30px;
   }
 
-  .flex-container > input {
-    align-self: center;
-    padding: 6px;
-    border: none;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-  }
-
-  h1 {
+h1 {
     color: #ff7722;
+    padding: 10px;
+}
+
+.search > form {
+    opacity: 75%;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.rightNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location {
+    height: 150px;
+    width: auto;
+}
+
+.profile {
+    height: 50px;
+    width: auto;
+}
+
+.hamburger > div {
+    background-color: white;
+    width: 35px;
+    height: 5px;
+    margin: 6px 0;
+}
+
+.hamburger {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+ #nav-container {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
   }
 
-  .icon {
-    color: white;
-  }
+.navbar-background {
+  display: flex;
+  background-color: rgb(173, 205, 216);
+  justify-content: space-evenly;
+  /* height: 75px; */
+}
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-items:hover {
+color: white;
+
+}
+
+.nav-list li {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 120px;
+  /* float: left; */;
+  margin: 0 45px;
+}

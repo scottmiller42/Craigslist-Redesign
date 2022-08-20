@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="index.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {font-family: "Montserrat", sans-serif}
 </style>
@@ -13,17 +14,41 @@ body {font-family: "Montserrat", sans-serif}
 
 <!-- Top Navigation Menu -->
 <div class="flex-container">
-    <div>
+    <div class="header">
         <h1>craigslist</h1>
     </div>
-    <div>
-        <input type="text" placeholder="Whatcha lookin' for...">
+    <div class="search">
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
     </div>
-    <div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
+    <div class="rightNav">
+        <img src="images/location.png" class="location">
+        <span class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </span>
+        <img src="images/profile.png" class="profile">
     </div>
+</div>
+    <div id="nav-container"></div>
+  <nav class="navbar-background">
+  <!-- we have used list tag that is ul 
+       to list the items-->
+       
+        <ul class="nav-list">
+            <li class="nav-items">COMMUNITY</li>
+            <li class="nav-items">HOUSING</a></li>
+            <li class="nav-items">SERVICES</a></li>
+            <li class="nav-items">FOR SALE</a></li>
+            <li class="nav-items">DISCUSSION FORUMS</a></li>
+            <li class="nav-items">GIGS</a></li>
+            <li class="nav-items">RESUMES</a></li>
+        </ul>
+               
+  </nav>
 </div>
 
 
