@@ -80,7 +80,7 @@ color: white;
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 120px;
+  width: 175px;
   /* float: left; */;
   margin: 0 45px;
   font-size: 18px;
@@ -88,6 +88,6 @@ color: white;
 }
 
 .container-fluid2 {
-    padding: 10px;
-    justify-content: center;
+    margin: 45px;
+    width: auto;
 }
