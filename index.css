@@ -1,27 +1,41 @@
 .flex-container {
-    display: flex  ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     background-color: #29304e;
+    height: 150px;
 }
 
 .flex-container > div {
     margin: 2px;
-    padding: 20px;
     font-size: 30px;
   }
 
-  h1 {
+h1 {
     color: #ff7722;
-  }
+    padding: 10px;
+}
 
 .search > form {
-    margin-top: 55px;
+    opacity: 75%;
     margin-left: 500px;
     margin-right: 500px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.rightNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.location {
+    height: 150px;
+    width: auto;
+}
+
+.profile {
+    height: 50px;
+    width: auto;
 }
 
 .hamburger > div {
@@ -32,7 +46,8 @@ img {
 }
 
 .hamburger {
-    margin-top: 55px;
+    margin-left: 50px;
+    margin-right: 10px;
 }
 
  #nav-container {
