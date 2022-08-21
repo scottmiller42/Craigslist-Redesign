@@ -87,7 +87,11 @@ color: white;
   font-weight: bold;
 }
 
-.container-fluid2 {
-    margin: 45px;
-    width: auto;
+.container .col {
+    padding: 10px;
+}
+
+.container .posts .events {
+    width: 50%;
+    height: auto;
 }
