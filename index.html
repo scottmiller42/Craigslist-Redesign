@@ -1,44 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Craigslist Redesign</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="index.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body {font-family: "Montserrat", sans-serif}
-</style>
+    <title>Craigslist Redesign</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+    body {font-family: "Montserrat", sans-serif}
+    </style>
 </head>
-
-<!-- Top Navigation Menu -->
-<div class="flex-container">
-    <div class="header">
-        <h1>craigslist</h1>
-    </div>
-    <div class="search">
-        <form class="example" action="action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
-    </div>
-    <div class="rightNav">
-        <img src="images/location.png" class="location">
-        <span class="hamburger">
-            <div></div>
-            <div></div>
-            <div></div>
-        </span>
-        <img src="images/profile.png" class="profile">
-    </div>
-</div>
-    <div id="nav-container"></div>
+<header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <h1 class="navbar-brand" href="#">craigslist</h1>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo03" style="flex-grow: 0;">
+            <form class="d-inline-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <img src="images/location.png" class="location">
+                </li>
+                <li class="nav-item">
+                    <span class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </span>
+                </li>
+                <li class="nav-item">
+                    <img src="images/profile.png" class="profile">
+                </li>
+              </ul>
+        </div>
+        </div>
+    </nav>
+        <div id="nav-container"></div>
   <nav class="navbar-background">
-  <!-- we have used list tag that is ul 
-       to list the items-->
+  <!-- we have used list tag that is ul to list the items-->
        
-        <ul class="nav-list">
+        <ul class="nav-list justify-content-center">
             <li class="nav-items">COMMUNITY</li>
             <li class="nav-items">HOUSING</a></li>
             <li class="nav-items">SERVICES</a></li>
@@ -50,45 +58,31 @@ body {font-family: "Montserrat", sans-serif}
                
   </nav>
 </div>
-
-<!-- Page Body -->
-<div class="bodyFlexContainer">
-    <div class='row'>
-        <div class='column'>
-          <div class='blue-column'>
+</header>
+<body>
+    <div class="container text-left">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-2 row-cols-xl-2">
+        <div class="col">
             <h2>Your Posts</h2>
-          </div>
-          <img src="images/your_posts.png" class="posts">
-        </div>
-        <div class='column'>
-          <div class='green-column'>
-            <h2>Events Around You</h2>
-          </div>
-          <img src="images/events_around.png" class="events">
-        </div>
-      </div>
-    </div>
-</div>
-
-<div class="bodyFlexContainer">
-    <div class='row'>
-        <div class='column'>
-          <div class='blue-column'>
+            <img src="images/your_posts_1.png" class="posts">
+            </div>
+          <div class="col">
+                <h2>Events Around You</h2>
+              <img src="images/EVENTS.png" class="events">
+            </div>
+          <div class="col">
             <h2>Favorites</h2>
-          </div>
           <img src="images/favorites.png" class="posts">
-        </div>
-        <div class='column'>
-          <div class='green-column'>
+            </div>
+          <div class="col">
             <h2>Trending</h2>
-          </div>
-          <img src="images/trending.jpg" class="events">
+          <img src="images/trending.png" class="events">
+            </div>
         </div>
       </div>
-    </div>
-</div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+<footer>
 
-<!-- Footer -->
-
-</body>
+</footer>
 </html>

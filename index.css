@@ -1,57 +1,70 @@
-.flex-container {
+header {
+    display: inline-grid;
+    width: 100%;
+}
+
+.container-fluid {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     background-color: #29304e;
     height: 150px;
+    width: auto;
 }
 
-.flex-container > div {
-    margin: 2px;
-    font-size: 30px;
-  }
-
-h1 {
+.container-fluid .navbar-brand {
     color: #ff7722;
     padding: 10px;
+    font-size: 62px;
 }
 
-.search > form {
-    opacity: 75%;
-    margin-left: 500px;
-    margin-right: 500px;
+.container-fluid .navbar-brand:hover {
+    color: white;
 }
 
-.rightNav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.container-fluid .d-flex {
+    margin-left: 100px;
 }
 
-.location {
+.container-fluid .location {
+    justify-items: right;
     height: 150px;
     width: auto;
+    margin-left: 400px;
 }
 
-.profile {
-    height: 50px;
-    width: auto;
-}
-
-.hamburger > div {
+.container-fluid .hamburger > div {
     background-color: white;
     width: 35px;
     height: 5px;
     margin: 6px 0;
 }
 
-.hamburger {
+.container-fluid .hamburger {
+    justify-items: right;
     margin-left: 50px;
     margin-right: 10px;
 }
 
- #nav-container {
+.container-fluid .profile {
+    justify-items: right;
+    height: 50px;
+    width: auto;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-nav {
+    float: right;
+    align-items: center;
+}
+
+#nav-container {
     display:flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
   }
@@ -59,7 +72,7 @@ h1 {
 .navbar-background {
   display: flex;
   background-color: rgb(173, 205, 216);
-  justify-content: space-evenly;
+  align-items: center;
   /* height: 75px; */
 }
 
@@ -74,48 +87,19 @@ color: white;
 }
 
 .nav-list li {
-
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 120px;
-  /* float: left; */;
+  width: auto;
   margin: 0 45px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.bodyFlexContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.container .col {
+    padding: 10px;
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 15px;
-  margin-left: 75px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-  margin: 15px;
-}
-
-h3 {
-  font-size: 42px;
-  font-weight: bolder;
-}
-
-.posts {
-  width: 850px;
-  height: 400px;
-}
-
-.events {
-  width: 850px;
-  height: 400px;
+.container .posts .events {
+    height: auto;
 }
